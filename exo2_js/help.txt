@@ -1,0 +1,6 @@
+concatenation = 
+
+(string) "" mettre des éléments a la suite ( sa additione pas)
+(number) sans "" sa s'additionne
+
+opérateur = (possible qu'avec les types numbers)

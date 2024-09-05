@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrousel</title>
+    <style>
+        #carousel {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #carousel img {
+            max-width: 100%;
+            height: auto;
+        }
+        .carousel-button {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="carousel">
+        <img id="carousel-image" src="" alt="">
+        <p id="carousel-caption"></p>
+
+
+        <button class="carousel-button" onclick="prevImage()">Précédent</button>
+        <button class="carousel-button" onclick="nextImage()">Suivant</button>
+
+        
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
